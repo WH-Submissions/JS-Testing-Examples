@@ -1,0 +1,25 @@
+<script src="evenFunction.js"></script>
+
+<script>
+function testUnit(){
+   var testValue=[0,1,2,3,4,5,6,7];
+   var testResult=["EVEN","ODD","EVEN","ODD","EVEN","ODD","EVEN","ODD"];
+   for (i=0;i<8;i++) {
+      alert(i + " is " + isEven(testValue[i]));
+      if(isEven(testValue[i]) == testResult[i]) {
+         alert("It is CORRECT");
+      }
+      else {
+         alert("FAILURE");
+      }
+   }
+}
+</script>
+
+<script>
+
+alert("Starting Test ...");
+testUnit();
+alert("Ending Test ...");
+
+</script>
